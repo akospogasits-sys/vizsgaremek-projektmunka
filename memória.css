@@ -21,12 +21,12 @@ body {
     transition: background-color 0.2s ease, transform 0.1s ease, box-shadow 0.2s ease;
 }
 
-#nyilo:hover {
+#nyíló:hover {
     background-color: #0fb300;
     box-shadow: 0 6px 12px rgba(0, 123, 255, 0.25);
 }
 
-#nyilo:active {
+#nyíló:active {
     transform: scale(0.98);
 }
 
@@ -43,41 +43,6 @@ body {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
-
-h1 {
-    color: #333;
-    margin-bottom: 20px;
-}
-
-#infók {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    margin-bottom: 20px;
-}
-
-#pont, #idő {
-    font-size: 20px;
-    font-weight: bold;
-    color: #333;
-    background-color: #f7f7f7;
-    padding: 8px 16px;
-    border-radius: 6px;
-}
-
-table {
-    margin: auto;
-    border-collapse: separate;
-    border-spacing: 10px;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #74b0c9;
-    text-align: center;
-    margin: 0;
-    padding: 30px;
-}
 
 h1 {
     color: #333;
@@ -149,25 +114,5 @@ td:hover {
     background-color: #eee;
 }
 
-#győzelem {
-    display: none;
-    margin-top: 20px;
-    font-size: 28px;
-    font-weight: bold;
-    color: #2e7d32;
-}
 
-#újra-gomb {
-    margin-top: 20px;
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    background-color: #ffffff;
-    border: 1px solid #333;
-    border-radius: 6px;
-    cursor: pointer;
-}
 
-#újra-gomb:hover {
-    background-color: #eee;
-}
